@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Adventour</title>
+  <meta name="description" content="Get in touch with Adventour for your travel inquiries.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-geo-alt-fill"></i>Adventour</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body align-items-center">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          </ul>
+          <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-3 align-items-center">
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme"><i class="bi bi-moon-fill"></i></button>
+            <a href="signup.html" class="btn btn-primary-custom">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="hero-section text-center" style="background-image: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&h=600&fit=crop');">
+    <div class="container hero-content text-center animate-up-target z-1">
+      <h1 class="display-4 fw-bold text-white mb-3">Get In Touch</h1>
+      <p class="lead text-white-50 fst-italic mb-4 mx-auto">"Adventure is worthwhile in itself." - Amelia Earhart</p>
+      <p class="lead text-white-50 mx-auto">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container py-5">
+      <div class="row g-5">
+        
+        <!-- Contact Information -->
+        <div class="col-lg-5 animate-up-target">
+          <div class="feature-card p-5 h-100">
+            <h3 class="mb-4">Contact Information</h3>
+            <p class="text-muted mb-5">Whether you have a question about our tours, pricing, or anything else, our team is ready to answer all your questions.</p>
+            
+            <div class="d-flex align-items-center mb-4">
+              <div class="icon-box me-4" style="width: 50px; height: 50px; font-size: 20px; margin-bottom: 0;">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div>
+                <h6 class="mb-1 fw-bold">Our Location</h6>
+                <p class="text-muted mb-0">123 Adventure Way, New York, NY 10001</p>
+              </div>
+            </div>
+            
+            <div class="d-flex align-items-center mb-4">
+              <div class="icon-box me-4" style="width: 50px; height: 50px; font-size: 20px; margin-bottom: 0;">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div>
+                <h6 class="mb-1 fw-bold">Phone Number</h6>
+                <p class="text-muted mb-0">+1 (555) 123-4567</p>
+              </div>
+            </div>
+            
+            <div class="d-flex align-items-center mb-5">
+              <div class="icon-box me-4" style="width: 50px; height: 50px; font-size: 20px; margin-bottom: 0;">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div>
+                <h6 class="mb-1 fw-bold">Email Address</h6>
+                <p class="text-muted mb-0">support@adventour.com</p>
+              </div>
+            </div>
+            
+            <h5 class="fw-bold mb-3">Follow Us</h5>
+            <div class="social-icons d-flex">
+              <a href="#" style="background: var(--primary-gradient);"><i class="bi bi-facebook"></i></a>
+              <a href="#" style="background: var(--primary-gradient);"><i class="bi bi-twitter"></i></a>
+              <a href="#" style="background: var(--primary-gradient);"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-7 animate-up-target" style="animation-delay: 0.2s;">
+          <div class="feature-card p-5 h-100">
+            <h3 class="mb-4">Send us a Message</h3>
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control bg-transparent" id="nameInput" placeholder="John Doe" required>
+                    <label for="nameInput">Your Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control bg-transparent" id="emailInput" placeholder="name@example.com" required>
+                    <label for="emailInput">Email Address</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control bg-transparent" id="subjectInput" placeholder="Subject" required>
+                    <label for="subjectInput">Subject</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-4">
+                    <textarea class="form-control bg-transparent" id="messageInput" placeholder="Leave a message here" style="height: 150px" required></textarea>
+                    <label for="messageInput">Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary-custom btn-lg w-100">Send Message <i class="bi bi-send ms-2"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: FAQ -->
+  <section class="py-5 bg-light-bg">
+    <div class="container py-5">
+      <div class="text-center mb-5 animate-up-target">
+        <h6 class="text-primary fw-bold text-uppercase mb-2">Support</h6>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 animate-up-target">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item feature-card mb-3 border-0">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                  What is your cancellation policy?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  You can cancel your booking up to 48 hours before the trip for a full refund. Cancellations made within 48 hours will incur a 20% processing fee.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item feature-card mb-3 border-0">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                  Are flights included in the tour packages?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  Standard tour packages do not include international flights. However, our Flight Booking service can easily add them to your package at competitive rates.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item feature-card border-0">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                  Do I need travel insurance?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  While not legally required for all destinations, we highly recommend purchasing travel insurance to protect against unforeseen circumstances.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Global Offices -->
+  <section class="py-5">
+    <div class="container py-5">
+      <div class="text-center mb-5 animate-up-target">
+        <h6 class="text-primary fw-bold text-uppercase mb-2">Our Locations</h6>
+        <h2>Global Offices</h2>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-md-4 animate-up-target">
+          <div class="feature-card p-4 h-100">
+            <h4 class="mb-3">New York</h4>
+            <p class="text-muted small">123 Adventure Way<br>New York, NY 10001<br>USA</p>
+            <p class="fw-bold text-primary">+1 (555) 123-4567</p>
+          </div>
+        </div>
+        <div class="col-md-4 animate-up-target" style="animation-delay: 0.1s;">
+          <div class="feature-card p-4 h-100">
+            <h4 class="mb-3">London</h4>
+            <p class="text-muted small">45 Travel Street<br>London, W1D 3QU<br>UK</p>
+            <p class="fw-bold text-primary">+44 20 7123 4567</p>
+          </div>
+        </div>
+        <div class="col-md-4 animate-up-target" style="animation-delay: 0.2s;">
+          <div class="feature-card p-4 h-100">
+            <h4 class="mb-3">Tokyo</h4>
+            <p class="text-muted small">8-1-1 Ginza<br>Chuo City, Tokyo 104-0061<br>Japan</p>
+            <p class="fw-bold text-primary">+81 3 1234 5678</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Partnership Inquiries -->
+  <section class="py-5 mb-5 bg-primary text-white text-center" style="background: var(--primary-gradient) !important; border-radius: 30px; margin: 0 15px;">
+    <div class="container py-4 animate-up-target">
+      <h2 class="display-6 fw-bold text-white mb-3">Partner With Us</h2>
+      <p class="lead text-white-50 mb-4">Are you a hotel, airline, or influencer? Let's build something amazing together.</p>
+      <a href="#" class="btn btn-light btn-lg fw-bold px-5 rounded-pill" style="color: var(--primary-color);">Contact Partnerships</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <a href="index.html" class="text-decoration-none d-block mb-3 brand-logo">
+            <i class="bi bi-geo-alt-fill"></i>Adventour
+          </a>
+          <p class="mb-4">Your trusted partner for memorable travel experiences across the globe.</p>
+          <div class="social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Company</h5>
+          <a href="about.html" class="footer-link">About Us</a>
+          <a href="services.html" class="footer-link">Services</a>
+          <a href="gallery.html" class="footer-link">Gallery</a>
+          <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Support</h5>
+          <a href="#" class="footer-link">FAQ</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Booking Guide</a>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5>Newsletter</h5>
+          <p>Subscribe to get the latest offers and travel guides.</p>
+          <form class="d-flex mt-3">
+            <input type="email" class="form-control me-2 bg-transparent text-white border-secondary" placeholder="Email address" required>
+            <button class="btn btn-primary-custom" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <hr class="mt-5 mb-4 border-secondary">
+      <div class="text-center"><p class="mb-0">&copy; 2026 Adventour. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <button id="backToTop" title="Go to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

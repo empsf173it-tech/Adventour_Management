@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventour - Travel & Tourism</title>
+  <meta name="description" content="Explore the world with Adventour. Premium travel and tourism services for your next adventure.">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="bi bi-geo-alt-fill"></i>Adventour
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body align-items-center">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-3 align-items-center">
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+              <i class="bi bi-moon-fill"></i>
+            </button>
+            <a href="signup.html" class="btn btn-primary-custom">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section 1: Hero -->
+  <section class="hero-section" style="background-image: url('https://picsum.photos/seed/hero1/1920/1080');">
+    <div class="container hero-content animate-up-target">
+      <h1 class="display-3 text-white fw-bold mb-4">Discover Your Next Great Adventure</h1>
+      <p class="lead text-white-50 fst-italic mb-3">"The world is a book and those who do not travel read only one page." - St. Augustine</p>
+      <p class="lead text-white mb-5">Explore breathtaking destinations and create memories that last a lifetime.</p>
+      <div class="d-inline-flex gap-3">
+        <a href="services.html" class="btn btn-primary-custom btn-lg">Explore Tours</a>
+        <a href="about.html" class="btn btn-outline-light btn-lg rounded-3 fw-bold px-4">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: About Us Snippet -->
+  <section class="py-5 bg-light-bg">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0 animate-up-target">
+          <img src="https://picsum.photos/seed/about-home/600/500" alt="About Us" class="img-fluid rounded-4 shadow">
+        </div>
+        <div class="col-lg-6 ps-lg-5 animate-up-target" style="animation-delay: 0.2s;">
+          <h6 class="text-primary fw-bold text-uppercase mb-2">Who We Are</h6>
+          <h2 class="mb-4">We Create Unforgettable Travel Experiences</h2>
+          <p class="text-muted mb-4">With years of expertise in the tourism industry, we provide premium travel packages tailored just for you. From relaxing beach holidays to thrilling mountain expeditions, we handle every detail so you can focus on the journey.</p>
+          <ul class="list-unstyled mb-4">
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Professional Tour Guides</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Premium Handpicked Hotels</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> 24/7 Dedicated Support</li>
+          </ul>
+          <a href="about.html" class="btn btn-primary-custom">Read Our Story</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Popular Destinations -->
+  <section class="py-5">
+    <div class="container py-5">
+      <div class="text-center mb-5 animate-up-target">
+        <h6 class="text-primary fw-bold text-uppercase mb-2">Destinations</h6>
+        <h2>Top Trending Places</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4 animate-up-target">
+          <div class="destination-card h-100">
+            <div class="position-relative overflow-hidden">
+              <img src="https://picsum.photos/seed/dest1/400/300" alt="Bali">
+              <span class="badge bg-primary position-absolute top-0 end-0 m-3 p-2">Popular</span>
+            </div>
+            <div class="p-4">
+              <h4 class="mb-2">Bali, Indonesia</h4>
+              <p class="text-muted small mb-3">Tropical paradise with beautiful beaches and rich culture.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-secondary fw-bold"><i class="bi bi-star-fill me-1"></i>4.9</span>
+                <span class="text-primary fw-bold">$899</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 animate-up-target" style="animation-delay: 0.1s;">
+          <div class="destination-card h-100">
+            <div class="position-relative overflow-hidden">
+              <img src="https://picsum.photos/seed/dest2/400/300" alt="Swiss Alps">
+            </div>
+            <div class="p-4">
+              <h4 class="mb-2">Swiss Alps</h4>
+              <p class="text-muted small mb-3">Perfect for winter sports and scenic train rides.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-secondary fw-bold"><i class="bi bi-star-fill me-1"></i>4.8</span>
+                <span class="text-primary fw-bold">$1299</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 animate-up-target" style="animation-delay: 0.2s;">
+          <div class="destination-card h-100">
+            <div class="position-relative overflow-hidden">
+              <img src="https://picsum.photos/seed/dest3/400/300" alt="Maldives">
+            </div>
+            <div class="p-4">
+              <h4 class="mb-2">The Maldives</h4>
+              <p class="text-muted small mb-3">Luxury overwater bungalows and crystal clear waters.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-secondary fw-bold"><i class="bi bi-star-fill me-1"></i>5.0</span>
+                <span class="text-primary fw-bold">$1599</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Why Choose Us -->
+  <section class="py-5 bg-light-bg">
+    <div class="container py-5">
+      <div class="text-center mb-5 animate-up-target">
+        <h6 class="text-primary fw-bold text-uppercase mb-2">Our Value</h6>
+        <h2>Why Travel With Us</h2>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-md-4 animate-up-target">
+          <div class="feature-card p-4 h-100 d-flex flex-column align-items-center">
+            <div class="icon-box"><i class="bi bi-wallet2"></i></div>
+            <h4>Best Price Guarantee</h4>
+            <p class="text-muted">We ensure you get the best value for your money with no hidden costs.</p>
+          </div>
+        </div>
+        <div class="col-md-4 animate-up-target" style="animation-delay: 0.1s;">
+          <div class="feature-card p-4 h-100 d-flex flex-column align-items-center">
+            <div class="icon-box"><i class="bi bi-shield-check"></i></div>
+            <h4>Safe & Secure</h4>
+            <p class="text-muted">Your safety is our top priority, with strict protocols and insured trips.</p>
+          </div>
+        </div>
+        <div class="col-md-4 animate-up-target" style="animation-delay: 0.2s;">
+          <div class="feature-card p-4 h-100 d-flex flex-column align-items-center">
+            <div class="icon-box"><i class="bi bi-globe2"></i></div>
+            <h4>Global Coverage</h4>
+            <p class="text-muted">Explore destinations across all continents with our extensive network.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Testimonials -->
+  <section class="py-5">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-5 animate-up-target">
+          <h6 class="text-primary fw-bold text-uppercase mb-2">Testimonials</h6>
+          <h2 class="mb-4">What Our Clients Say</h2>
+          <p class="text-muted mb-4">Don't just take our word for it. Read the experiences of thousands of happy travelers who explored the world with us.</p>
+        </div>
+        <div class="col-lg-7 animate-up-target" style="animation-delay: 0.2s;">
+          <div class="feature-card p-4">
+            <div class="d-flex mb-3 text-secondary">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p class="fs-5 fst-italic mb-4">"The trip to Bali was perfectly organized. The hotel was amazing and the tour guides were incredibly knowledgeable. Will definitely book again!"</p>
+            <div class="d-flex align-items-center">
+              <img src="https://picsum.photos/seed/user1/60/60" alt="User" class="rounded-circle me-3" width="60" height="60">
+              <div>
+                <h5 class="mb-0">Sarah Jenkins</h5>
+                <small class="text-muted">Travelled to Bali</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: CTA -->
+  <section class="py-5 bg-primary text-white text-center">
+    <div class="container py-5 animate-up-target">
+      <h2 class="display-5 fw-bold mb-4">Ready For Your Next Adventure?</h2>
+      <p class="lead mb-4">Join thousands of travelers and start planning your dream vacation today.</p>
+      <a href="signup.html" class="btn btn-light btn-lg fw-bold text-primary px-5 rounded-3">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <a href="index.html" class="text-decoration-none d-block mb-3 brand-logo">
+            <i class="bi bi-geo-alt-fill"></i>Adventour
+          </a>
+          <p class="mb-4">Your trusted partner for memorable travel experiences across the globe.</p>
+          <div class="social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Company</h5>
+          <a href="about.html" class="footer-link">About Us</a>
+          <a href="services.html" class="footer-link">Services</a>
+          <a href="gallery.html" class="footer-link">Gallery</a>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Support</h5>
+          <a href="#" class="footer-link">FAQ</a>
+          <a href="#" class="footer-link">Contact Us</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Booking Guide</a>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5>Newsletter</h5>
+          <p>Subscribe to get the latest offers and travel guides.</p>
+          <form class="d-flex mt-3">
+            <input type="email" class="form-control me-2" placeholder="Email address" required>
+            <button class="btn btn-primary-custom" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <hr class="mt-5 mb-4 border-secondary">
+      <div class="text-center">
+        <p class="mb-0">&copy; 2026 Adventour. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" title="Go to top"><i class="bi bi-arrow-up"></i></button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

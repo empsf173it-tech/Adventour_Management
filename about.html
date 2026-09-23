@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Adventour</title>
+  <meta name="description" content="Learn more about Adventour and our mission to provide the best travel experiences.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-geo-alt-fill"></i>Adventour</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body align-items-center">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+          <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-3 align-items-center">
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme"><i class="bi bi-moon-fill"></i></button>
+            <a href="signup.html" class="btn btn-primary-custom">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="hero-section text-center" style="background-image: url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&h=600&fit=crop');">
+    <div class="container hero-content text-center animate-up-target z-1">
+      <h1 class="display-4 fw-bold text-white mb-3">About Us</h1>
+      <p class="lead text-white-50 fst-italic mb-4 mx-auto">"Travel is the only thing you buy that makes you richer."</p>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+          <li class="breadcrumb-item"><a href="index.html" class="text-white-50">Home</a></li>
+          <li class="breadcrumb-item active text-white" aria-current="page">About Us</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="py-5">
+    <div class="container py-4">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0 animate-up-target">
+          <img src="https://picsum.photos/seed/aboutmain/800/600" alt="Our Team" class="img-fluid rounded-4 shadow-lg">
+        </div>
+        <div class="col-lg-6 ps-lg-5 animate-up-target" style="animation-delay: 0.2s;">
+          <h6 class="text-primary fw-bold text-uppercase mb-2">Our Story</h6>
+          <h2 class="mb-4">Making Travel Dreams a Reality Since 2010</h2>
+          <p class="text-muted mb-4">Founded by a group of passionate travelers, Adventour was built on the belief that travel should be accessible, seamless, and memorable for everyone. We started as a small local agency and have grown into a globally recognized tourism brand.</p>
+          <p class="text-muted mb-4">Our mission is simple: to connect people with the world's most beautiful destinations through carefully curated experiences that respect local cultures and environments.</p>
+          <div class="row text-center mt-4">
+            <div class="col-4">
+              <h3 class="text-primary fw-bold">15+</h3>
+              <p class="small text-muted text-uppercase">Years Experience</p>
+            </div>
+            <div class="col-4">
+              <h3 class="text-primary fw-bold">10k+</h3>
+              <p class="small text-muted text-uppercase">Happy Travelers</p>
+            </div>
+            <div class="col-4">
+              <h3 class="text-primary fw-bold">50+</h3>
+              <p class="small text-muted text-uppercase">Destinations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: Our Team -->
+  <section class="py-5 bg-light-bg">
+    <div class="container py-5">
+      <div class="text-center mb-5 animate-up-target">
+        <h6 class="text-primary fw-bold text-uppercase mb-2">Our People</h6>
+        <h2>Meet the Team</h2>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-md-4 animate-up-target">
+          <div class="feature-card p-4 h-100">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop" alt="CEO" class="rounded-circle mb-3 border border-3 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+            <h4>Michael Chen</h4>
+            <p class="text-muted small">Founder & CEO</p>
+          </div>
+        </div>
+        <div class="col-md-4 animate-up-target" style="animation-delay: 0.1s;">
+          <div class="feature-card p-4 h-100">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop" alt="Lead Guide" class="rounded-circle mb-3 border border-3 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+            <h4>Sarah Jenkins</h4>
+            <p class="text-muted small">Lead Tour Director</p>
+          </div>
+        </div>
+        <div class="col-md-4 animate-up-target" style="animation-delay: 0.2s;">
+          <div class="feature-card p-4 h-100">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop" alt="Customer Success" class="rounded-circle mb-3 border border-3 border-primary" style="width: 150px; height: 150px; object-fit: cover;">
+            <h4>David Ross</h4>
+            <p class="text-muted small">Customer Success</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Our Core Values -->
+  <section class="py-5">
+    <div class="container py-5">
+      <div class="text-center mb-5 animate-up-target">
+        <h6 class="text-primary fw-bold text-uppercase mb-2">What Drives Us</h6>
+        <h2>Our Core Values</h2>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-md-4 animate-up-target">
+          <div class="feature-card p-5 h-100 d-flex flex-column align-items-center">
+            <div class="icon-box"><i class="bi bi-tree"></i></div>
+            <h4>Sustainability</h4>
+            <p class="text-muted">We believe in eco-friendly travel that respects and preserves local environments.</p>
+          </div>
+        </div>
+        <div class="col-md-4 animate-up-target" style="animation-delay: 0.1s;">
+          <div class="feature-card p-5 h-100 d-flex flex-column align-items-center">
+            <div class="icon-box"><i class="bi bi-heart"></i></div>
+            <h4>Customer First</h4>
+            <p class="text-muted">Your comfort, safety, and joy are the central focus of every decision we make.</p>
+          </div>
+        </div>
+        <div class="col-md-4 animate-up-target" style="animation-delay: 0.2s;">
+          <div class="feature-card p-5 h-100 d-flex flex-column align-items-center">
+            <div class="icon-box"><i class="bi bi-shield-check"></i></div>
+            <h4>Authenticity</h4>
+            <p class="text-muted">We provide genuine, localized experiences rather than standard tourist traps.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Company Milestones -->
+  <section class="py-5 bg-light-bg">
+    <div class="container py-5">
+      <div class="text-center mb-5 animate-up-target">
+        <h6 class="text-primary fw-bold text-uppercase mb-2">Our History</h6>
+        <h2>Company Milestones</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="feature-card p-4 animate-up-target border-start border-4 border-primary">
+            <h5 class="text-primary fw-bold">2010</h5>
+            <h4>Foundation</h4>
+            <p class="text-muted">Adventour was founded in a small office with a big dream to change travel.</p>
+          </div>
+          <div class="feature-card p-4 animate-up-target border-start border-4 border-primary mt-4" style="animation-delay: 0.1s;">
+            <h5 class="text-primary fw-bold">2015</h5>
+            <h4>Global Expansion</h4>
+            <p class="text-muted">Expanded our operations to over 20 countries across Europe and Asia.</p>
+          </div>
+          <div class="feature-card p-4 animate-up-target border-start border-4 border-primary mt-4" style="animation-delay: 0.2s;">
+            <h5 class="text-primary fw-bold">2026</h5>
+            <h4>Industry Leaders</h4>
+            <p class="text-muted">Recognized globally as a top-tier premium travel agency with thousands of satisfied clients.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <a href="index.html" class="text-decoration-none d-block mb-3 brand-logo">
+            <i class="bi bi-geo-alt-fill"></i>Adventour
+          </a>
+          <p class="mb-4">Your trusted partner for memorable travel experiences across the globe.</p>
+          <div class="social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Company</h5>
+          <a href="about.html" class="footer-link">About Us</a>
+          <a href="services.html" class="footer-link">Services</a>
+          <a href="gallery.html" class="footer-link">Gallery</a>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Support</h5>
+          <a href="#" class="footer-link">FAQ</a>
+          <a href="#" class="footer-link">Contact Us</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Booking Guide</a>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5>Newsletter</h5>
+          <p>Subscribe to get the latest offers and travel guides.</p>
+          <form class="d-flex mt-3">
+            <input type="email" class="form-control me-2" placeholder="Email address" required>
+            <button class="btn btn-primary-custom" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <hr class="mt-5 mb-4 border-secondary">
+      <div class="text-center"><p class="mb-0">&copy; 2026 Adventour. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <button id="backToTop" title="Go to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

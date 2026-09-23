@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Adventour</title>
+  <meta name="description" content="Explore our premium travel and tourism services designed for your ultimate comfort.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-geo-alt-fill"></i>Adventour</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body align-items-center">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+          <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-3 align-items-center">
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme"><i class="bi bi-moon-fill"></i></button>
+            <a href="signup.html" class="btn btn-primary-custom">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="hero-section text-center" style="background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1920&h=600&fit=crop');">
+    <div class="container hero-content text-center animate-up-target z-1">
+      <h1 class="display-4 fw-bold text-white mb-3">Our Services</h1>
+      <p class="lead text-white-50 fst-italic mb-4 mx-auto">"A journey of a thousand miles begins with a single step." - Lao Tzu</p>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+          <li class="breadcrumb-item"><a href="index.html" class="text-white-50">Home</a></li>
+          <li class="breadcrumb-item active text-white" aria-current="page">Services</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Services Grid (8 Cards) -->
+  <section class="py-5">
+    <div class="container py-4">
+      <div class="row g-4 text-center">
+        <!-- Service 1 -->
+        <div class="col-lg-3 col-md-6 animate-up-target">
+          <div class="service-card h-100 d-flex flex-column">
+            <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=250&fit=crop" alt="Flight Booking">
+            <div class="p-4 flex-grow-1">
+              <h4 class="mb-3">Flight Booking</h4>
+              <p class="text-muted small">Find the best deals on domestic and international flights.</p>
+              <a href="#" class="btn btn-outline-custom mt-auto w-100">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 2 -->
+        <div class="col-lg-3 col-md-6 animate-up-target" style="animation-delay: 0.1s;">
+          <div class="service-card h-100 d-flex flex-column">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&h=250&fit=crop" alt="Hotel Reservation">
+            <div class="p-4 flex-grow-1">
+              <h4 class="mb-3">Hotel Reservation</h4>
+              <p class="text-muted small">Stay at premium hotels with handpicked accommodations worldwide.</p>
+              <a href="#" class="btn btn-outline-custom mt-auto w-100">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 3 -->
+        <div class="col-lg-3 col-md-6 animate-up-target" style="animation-delay: 0.2s;">
+          <div class="service-card h-100 d-flex flex-column">
+            <img src="https://images.unsplash.com/photo-1528543606781-2f6e6857f318?w=400&h=250&fit=crop" alt="Tour Guides">
+            <div class="p-4 flex-grow-1">
+              <h4 class="mb-3">Tour Guides</h4>
+              <p class="text-muted small">Expert local guides to help you discover hidden gems.</p>
+              <a href="#" class="btn btn-outline-custom mt-auto w-100">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 4 -->
+        <div class="col-lg-3 col-md-6 animate-up-target" style="animation-delay: 0.3s;">
+          <div class="service-card h-100 d-flex flex-column">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=250&fit=crop" alt="Travel Insurance">
+            <div class="p-4 flex-grow-1">
+              <h4 class="mb-3">Travel Insurance</h4>
+              <p class="text-muted small">Comprehensive travel insurance for peace of mind.</p>
+              <a href="#" class="btn btn-outline-custom mt-auto w-100">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 5 -->
+        <div class="col-lg-3 col-md-6 animate-up-target">
+          <div class="service-card h-100 d-flex flex-column">
+            <img src="https://images.unsplash.com/photo-1599640842225-85d111c60e6b?w=400&h=250&fit=crop" alt="Cruise Tours">
+            <div class="p-4 flex-grow-1">
+              <h4 class="mb-3">Cruise Tours</h4>
+              <p class="text-muted small">Luxury cruise packages spanning beautiful oceans and rivers.</p>
+              <a href="#" class="btn btn-outline-custom mt-auto w-100">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 6 -->
+        <div class="col-lg-3 col-md-6 animate-up-target" style="animation-delay: 0.1s;">
+          <div class="service-card h-100 d-flex flex-column">
+            <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=250&fit=crop" alt="Car Rentals">
+            <div class="p-4 flex-grow-1">
+              <h4 class="mb-3">Car Rentals</h4>
+              <p class="text-muted small">Convenient car rental services for self-driven explorations.</p>
+              <a href="#" class="btn btn-outline-custom mt-auto w-100">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 7 -->
+        <div class="col-lg-3 col-md-6 animate-up-target" style="animation-delay: 0.2s;">
+          <div class="service-card h-100 d-flex flex-column">
+            <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&h=250&fit=crop" alt="Event Ticketing">
+            <div class="p-4 flex-grow-1">
+              <h4 class="mb-3">Event Ticketing</h4>
+              <p class="text-muted small">Get tickets to major local events, festivals, and concerts.</p>
+              <a href="#" class="btn btn-outline-custom mt-auto w-100">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 8 -->
+        <div class="col-lg-3 col-md-6 animate-up-target" style="animation-delay: 0.3s;">
+          <div class="service-card h-100 d-flex flex-column">
+            <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=250&fit=crop" alt="Visa Assistance">
+            <div class="p-4 flex-grow-1">
+              <h4 class="mb-3">Visa Assistance</h4>
+              <p class="text-muted small">Hassle-free visa processing and documentation support.</p>
+              <a href="#" class="btn btn-outline-custom mt-auto w-100">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: How It Works -->
+  <section class="py-5 bg-light-bg">
+    <div class="container py-5">
+      <div class="text-center mb-5 animate-up-target">
+        <h6 class="text-primary fw-bold text-uppercase mb-2">Process</h6>
+        <h2>How It Works</h2>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-md-4 animate-up-target">
+          <div class="feature-card p-5 h-100 border-top border-4 border-primary">
+            <h1 class="display-4 text-primary opacity-50 fw-bold mb-3">01</h1>
+            <h4>Choose Destination</h4>
+            <p class="text-muted small">Browse through our extensive list of locations and pick your dream spot.</p>
+          </div>
+        </div>
+        <div class="col-md-4 animate-up-target" style="animation-delay: 0.1s;">
+          <div class="feature-card p-5 h-100 border-top border-4 border-primary">
+            <h1 class="display-4 text-primary opacity-50 fw-bold mb-3">02</h1>
+            <h4>Book Service</h4>
+            <p class="text-muted small">Select your preferred services, flights, and accommodations in one click.</p>
+          </div>
+        </div>
+        <div class="col-md-4 animate-up-target" style="animation-delay: 0.2s;">
+          <div class="feature-card p-5 h-100 border-top border-4 border-primary">
+            <h1 class="display-4 text-primary opacity-50 fw-bold mb-3">03</h1>
+            <h4>Enjoy the Trip</h4>
+            <p class="text-muted small">Pack your bags and get ready for an unforgettable journey with full support.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Why Choose Our Services -->
+  <section class="py-5">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-5 mb-lg-0 animate-up-target">
+          <h6 class="text-primary fw-bold text-uppercase mb-2">Why Us</h6>
+          <h2 class="mb-4">Premium Service Quality Guaranteed</h2>
+          <p class="text-muted mb-4">We don't just book tickets; we craft experiences. Our dedicated team ensures every aspect of your travel is handled with precision.</p>
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-headset fs-3 text-primary me-3"></i>
+            <div>
+              <h5 class="mb-1">24/7 Dedicated Support</h5>
+              <p class="text-muted small mb-0">Help is always just a call away, anywhere in the world.</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-cash-coin fs-3 text-primary me-3"></i>
+            <div>
+              <h5 class="mb-1">Best Price Guarantee</h5>
+              <p class="text-muted small mb-0">We match prices to ensure you always get the best deal.</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="bi bi-award fs-3 text-primary me-3"></i>
+            <div>
+              <h5 class="mb-1">Expert Local Guides</h5>
+              <p class="text-muted small mb-0">Discover secrets only the locals know about.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 animate-up-target" style="animation-delay: 0.2s;">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop" class="img-fluid rounded-4 shadow-lg" alt="Why Choose Us">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Client Testimonials -->
+  <section class="py-5 bg-light-bg">
+    <div class="container py-5">
+      <div class="text-center mb-5 animate-up-target">
+        <h6 class="text-primary fw-bold text-uppercase mb-2">Reviews</h6>
+        <h2>What Travelers Say</h2>
+      </div>
+      <div class="row justify-content-center g-4">
+        <div class="col-md-5 animate-up-target">
+          <div class="feature-card p-4">
+            <div class="d-flex text-secondary mb-3">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p class="fst-italic mb-4">"The flight booking and hotel reservation were seamless. We didn't have to worry about a single detail during our trip."</p>
+            <div class="d-flex align-items-center">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" class="rounded-circle me-3" style="width: 50px; height: 50px;" alt="User">
+              <h6 class="mb-0">Emily Davis</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 animate-up-target" style="animation-delay: 0.1s;">
+          <div class="feature-card p-4">
+            <div class="d-flex text-secondary mb-3">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p class="fst-italic mb-4">"Their visa assistance service saved me weeks of headache. Absolutely worth it for international travel."</p>
+            <div class="d-flex align-items-center">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop" class="rounded-circle me-3" style="width: 50px; height: 50px;" alt="User">
+              <h6 class="mb-0">John Smith</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <a href="index.html" class="text-decoration-none d-block mb-3 brand-logo">
+            <i class="bi bi-geo-alt-fill"></i>Adventour
+          </a>
+          <p class="mb-4">Your trusted partner for memorable travel experiences across the globe.</p>
+          <div class="social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Company</h5>
+          <a href="about.html" class="footer-link">About Us</a>
+          <a href="services.html" class="footer-link">Services</a>
+          <a href="gallery.html" class="footer-link">Gallery</a>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Support</h5>
+          <a href="#" class="footer-link">FAQ</a>
+          <a href="#" class="footer-link">Contact Us</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Booking Guide</a>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5>Newsletter</h5>
+          <p>Subscribe to get the latest offers and travel guides.</p>
+          <form class="d-flex mt-3">
+            <input type="email" class="form-control me-2" placeholder="Email address" required>
+            <button class="btn btn-primary-custom" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <hr class="mt-5 mb-4 border-secondary">
+      <div class="text-center"><p class="mb-0">&copy; 2026 Adventour. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <button id="backToTop" title="Go to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
