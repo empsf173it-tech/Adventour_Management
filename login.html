@@ -6,22 +6,23 @@
   <title>Login - Adventour</title>
   <meta name="description" content="Login to your Adventour account.">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.jpg">
 </head>
 <body>
 
   <!-- Login Section -->
   <section class="auth-wrapper">
+    <!-- Theme Toggle Button Top Right -->
+    <button id="themeToggle" class="theme-toggle position-absolute top-0 end-0 m-4 z-3" aria-label="Toggle theme">
+      <i class="bi bi-moon-fill"></i>
+    </button>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-6 col-lg-5 animate-up-target">
           <div class="feature-card p-5 position-relative">
-            <!-- Theme Toggle Button Top Right -->
-            <button id="themeToggle" class="theme-toggle position-absolute top-0 end-0 m-4" aria-label="Toggle theme">
-              <i class="bi bi-moon-fill"></i>
-            </button>
-            
             <div class="text-center mb-4 mt-3">
               <div class="mb-2"><a href="index.html" class="brand-logo text-decoration-none"><i class="bi bi-geo-alt-fill"></i>Adventour</a></div>
               <h2 class="fw-bold">Welcome Back</h2>
@@ -40,7 +41,7 @@
                     <i class="bi bi-eye"></i>
                   </button>
                 </div>
-                <div class="d-flex justify-content-between align-items-center mt-2">
+                <div class="d-flex justify-content-between align-items-center mt-2 mb-3">
                   <div class="form-check mb-0">
                     <input type="checkbox" class="form-check-input" id="remember">
                     <label class="form-check-label small text-muted" for="remember">Remember me</label>
@@ -58,6 +59,9 @@
                 </button>
                 <button type="button" class="btn btn-outline-secondary rounded-circle p-2" style="width:45px;height:45px;">
                   <i class="bi bi-facebook"></i>
+                </button>
+                <button type="button" class="btn btn-outline-secondary rounded-circle p-2" style="width:45px;height:45px;">
+                  <i class="bi bi-twitter-x"></i>
                 </button>
                 <button type="button" class="btn btn-outline-secondary rounded-circle p-2" style="width:45px;height:45px;">
                   <i class="bi bi-apple"></i>
