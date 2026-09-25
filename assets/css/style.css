@@ -264,8 +264,8 @@ a:hover {
 /* Premium Hero Section */
 .hero-section {
   position: relative;
-  height: 60vh;
-  min-height: 450px;
+  min-height: 60vh;
+  padding: 100px 0;
   display: flex;
   align-items: center;
   background-size: cover;
@@ -397,15 +397,20 @@ a:hover {
   justify-content: center;
   width: 45px;
   height: 45px;
-  background: rgba(255,255,255,0.05);
-  color: white;
+  background: rgba(0, 128, 128, 0.1);
+  color: var(--primary-color);
   border-radius: 50%;
   margin-right: 15px;
   transition: var(--transition);
 }
+[data-theme="dark"] .social-icons a {
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+}
 [dir="rtl"] .social-icons a { margin-right: 0; margin-left: 15px; }
 .social-icons a:hover {
   background: var(--primary-gradient);
+  color: white;
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0,128,128,0.3);
 }
@@ -437,11 +442,13 @@ a:hover {
 .auth-wrapper {
   min-height: 100vh;
   display: flex;
-  align-items: center;
   background: var(--light-bg);
-  padding: 60px 0;
+  padding: 100px 0 60px;
   position: relative;
   z-index: 1;
+}
+.auth-wrapper > .container {
+  margin: auto;
 }
 
 .auth-wrapper::before {
